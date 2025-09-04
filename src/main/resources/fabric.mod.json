@@ -12,19 +12,19 @@
 		"issues": "https://github.com/Maganoos/sigma-discounts/issues"
 	},
 	"license": "MIT",
-	"icon": "assets/sigma/icon.png",
+	"icon": "assets/sigma-discounts/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"eu.magkari.mc.villager_discount.Sigma"
+			"eu.magkari.mc.villager_discount.SigmaDiscounts"
 		]
 	},
 	"mixins": [
-		"sigma.mixins.json"
+		"sigma-discounts.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.16.14",
-		"minecraft": "~1.21.7",
+		"minecraft": ">=1.21.0",
 		"java": ">=21",
 		"fabric-api": "*"
 	}

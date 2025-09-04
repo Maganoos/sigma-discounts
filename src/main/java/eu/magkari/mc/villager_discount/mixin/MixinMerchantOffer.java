@@ -8,8 +8,8 @@ import org.spongepowered.asm.mixin.Overwrite;
 @Mixin(MerchantOffer.class)
 public class MixinMerchantOffer {
 	/**
-	 * @author Magnus trust
-	 * @reason We disable villager curing, and other discounts.
+	 * @author Magnus
+	 * @reason Disables villager discounts
 	 */
 	@Overwrite
 	private int getModifiedCostCount(ItemCost itemCost) {
